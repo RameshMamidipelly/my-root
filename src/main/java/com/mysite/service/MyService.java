@@ -20,7 +20,7 @@ public class MyService {
 
 
 	public List<StudentModel> getAllProfiles() {
-		
+		System.out.println("this is modify");
 		return new ArrayList<>(profiles.values());
 	}
 	
